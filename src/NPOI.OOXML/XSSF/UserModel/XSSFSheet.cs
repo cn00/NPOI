@@ -275,9 +275,13 @@ namespace NPOI.XSSF.UserModel
          */
         public String SheetName
         {
-            get
+            get 
             {
                 return sheet.name;
+            }
+            set
+            {
+                sheet.name = value;
             }
         }
 

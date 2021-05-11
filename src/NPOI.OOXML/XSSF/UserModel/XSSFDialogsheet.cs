@@ -640,6 +640,7 @@ namespace NPOI.XSSF.UserModel
         string ISheet.SheetName
         {
             get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
         }
 
         bool ISheet.IsSelected

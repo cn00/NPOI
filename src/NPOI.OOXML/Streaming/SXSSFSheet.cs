@@ -391,6 +391,7 @@ namespace NPOI.XSSF.Streaming
         public string SheetName
         {
             get { return _sh.SheetName; }
+            set { _sh.SheetName = value; }
         }
 
         public short TabColorIndex

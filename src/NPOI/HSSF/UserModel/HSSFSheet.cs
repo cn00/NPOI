@@ -2293,6 +2293,12 @@ namespace NPOI.HSSF.UserModel
                 int idx = wb.GetSheetIndex(this);
                 return wb.GetSheetName(idx);
             }
+            set
+            {
+                NPOI.SS.UserModel.IWorkbook wb = Workbook;
+                int idx = wb.GetSheetIndex(this);
+                wb.SetSheetName(idx, value);
+            }
         }
 
         /// <summary>

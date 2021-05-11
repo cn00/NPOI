@@ -689,7 +689,7 @@ namespace NPOI.SS.UserModel
         /// <summary>
         /// Gets the name of the sheet.
         /// </summary>
-        String SheetName { get; }
+        String SheetName { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether this sheet is currently selected.
